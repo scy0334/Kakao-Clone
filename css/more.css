@@ -1,0 +1,159 @@
+.more {
+    width: 100%;
+    height: 150vh;
+}
+.more .more__btn-list,
+.more .more__suggestions-list {
+    margin: 30px 0px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.more__btn-list .more__btn,
+.more .suggestion {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.more__btn .more__btn-title {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.more .more__suggestions {
+    border-top: 1px solid #f7f7f7;
+    padding-top: 20px;
+}
+
+.more .more__title {
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+
+.suggestion .suggestion__title {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.suggestion .suggestion__icon {
+    background-color: #fce006;
+    padding: 10px;
+    border-radius: 10px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion__icon i {
+    font-size: 28px;
+    color: white;
+}
+
+.more__pay {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: rgb(241, 239, 239);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more__pay .pay__column:first-child {
+    padding: 10px 15px;
+    margin: 1px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.more__pay .pay__pay {
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.more__pay .pay__money {
+    margin-left: 5px;
+}
+
+.more__pay .pay__column:last-child span {
+    font-weight: 400;
+    padding: 0px 10px;
+    padding-left: 14px;
+    border-left: 0.3px solid rgb(188, 187, 187);
+    cursor: pointer;
+}
+
+.more__suggestions.daily-routine {
+    display: flex;
+    justify-content: start;
+    padding: 15px 20px;
+}
+
+.more__suggestions.daily-routine .more__column {
+    margin-right: 80px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.more__suggestions .more__ads {
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/ads.png");
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more__ads .ads-box {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(162, 162, 162);
+    border-radius: 5px;
+    margin-left: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more__ads .ads__click {
+    width: 40px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(86, 81, 81);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+}
+
+.more__ads .ads__click:hover {
+    outline: 0;
+    transform: scale(1.2);
+}
+.more__ads .ads__click:focus {
+    outline: 0;
+    border: 1px solid white
+}

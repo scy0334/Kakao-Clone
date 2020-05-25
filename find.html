@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Find | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/f431e50127.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">
-                13:53
-            </span>
+            <div class="status-bar__inside">
+                <div class="status-bar__column">
+                    <span class="status-bar__clock">
+                        13:53
+                    </span>
+                </div>
+                <div class="status-bar__column">
+                    <i class="fas fa-clock"></i>
+                    <i class="fas fa-volume-mute"></i>
+                    <i class="fas fa-wifi"></i>
+                    <span class="status-bar__battery-level">100%</span>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+            </div>
         </div>
-        <div class="status-bar__column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
-        </div>
-    </div>
     <header class="header">
         <div class="header__header-column">
             <h1 class="header__title">Find</h1>
@@ -78,7 +81,7 @@
             </h5>
             <li class="find__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+                    <img src="images/avatar.jpg" class="friend__avatar" />
                     <div class="friend__content">
                         <span class="friend__name">
                             Nicolas Serrano
@@ -95,27 +98,30 @@
     </main>
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav_list-item">
+            <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link">
                     <i class="far fa-user"></i>
                 </a>
             </li>
-            <li class="nav_list-item">
+            <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
                     <i class="far fa-comment"></i>
                 </a>
             </li>
-            <li class="nav_list-item">
+            <li class="nav__list-item">
                 <a href="find.html" class="nav__list-link">
                     <i class="fas fa-search"></i>
                 </a>
             </li>
-            <li class="nav_list-item">
+            <li class="nav__list-item">
                 <a href="more.html" class="nav__list-link">
                     <i class="fas fa-ellipsis-h"></i>
                 </a>
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!!</span>
+    </div>
 </body>
 </html>
